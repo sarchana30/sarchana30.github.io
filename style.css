@@ -1,6 +1,20 @@
-#some-id {
-    color : blue
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
-.some-class-1 {
-    color: yellow
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
